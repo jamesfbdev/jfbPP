@@ -36,3 +36,11 @@ font-weight: bolder;
   font-family: 'Saira', sans-serif;
   font-weight: bold;
 }
+
+.skill-circle {
+  color: black;
+}
+
+.checked {
+  color: goldenrod
+}
