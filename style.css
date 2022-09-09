@@ -20,3 +20,19 @@
 .nav-item a:hover {
   color: goldenrod
 }
+
+/*  About Section Styling   */
+
+.profile-img {
+  max-height: 100px;
+}
+
+.section-heading {
+font-family: 'Saira', sans-serif;
+font-weight: bolder;
+}
+
+.section-text {
+  font-family: 'Saira', sans-serif;
+  font-weight: bold;
+}
