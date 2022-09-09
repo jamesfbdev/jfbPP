@@ -1,0 +1,22 @@
+/* Nav Styling */
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item a:link {
+  color: black 
+}
+
+
+.nav-item a:visited {
+  color: black 
+}
+
+.nav-item a:hover {
+  color: goldenrod
+}
