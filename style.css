@@ -23,6 +23,17 @@
 
 /*  About Section Styling   */
 
+
+.background-block {
+  border-radius: 5px;
+  background-image: linear-gradient(-45deg, rgba(83, 83, 83, 0.5), rgba(224, 224, 224, 0.1));
+}
+
+.background-block-2 {
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, rgba(83, 83, 83, 0.5), rgba(224, 224, 224, 0.1));
+}
+
 .profile-img {
   max-height: 100px;
 }
@@ -30,6 +41,7 @@
 .section-heading {
 font-family: 'Saira', sans-serif;
 font-weight: bolder;
+padding-top: 10px;
 }
 
 .section-text {
@@ -37,10 +49,60 @@ font-weight: bolder;
   font-weight: bold;
 }
 
-.skill-circle {
+/* project section styling  */
+
+
+.figure-img a {
+  text-decoration: none;
   color: black;
 }
 
-.checked {
+.figure-img a:hover {
   color: goldenrod
+
+}
+
+
+/* skills section styling  */
+
+.skill-circle {
+  color: rgb(50, 50, 50);
+  text-shadow: 0 0 1px rgb(50, 50, 50);
+}
+
+.checked {
+  color: rgb(249, 206, 98);
+  text-shadow: 0 0 5px rgb(214, 198, 102);
+}
+
+/*   Footer Styling    */
+
+
+.social-icon {
+  scale: 140%;
+  padding-right: 8px;
+  color: black
+}
+
+a:hover > .social-icon {
+color: goldenrod;
+
+}
+
+.section-text a {
+  color: black;
+  text-decoration: none;
+}
+
+.section-text a:hover {
+  color: goldenrod;
+}
+
+
+
+/*   Spacer Styling    */
+
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
